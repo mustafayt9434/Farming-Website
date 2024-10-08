@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Manrope:wght@200..800&display=swap");
+
+:root {
+  --color-primary: #4baf47;
+  --color-secondary: #eec044;
+  --color-dark-1: #1f1e17;
+  --color-dark-2: #878680;
+  --color-light-1: #ffffff;
+  --color-light-1: #e8e8e8;
+  --color-bg: #f8f7f0;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-family: "Manrope", system-ui;
+  font-size: 1.6rem;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 104rem;
+  padding: 0rem 2rem;
+  margin: 0 auto;
+}

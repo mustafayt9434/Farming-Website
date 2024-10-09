@@ -6,7 +6,6 @@
   --color-dark-1: #1f1e17;
   --color-dark-2: #878680;
   --color-light-1: #ffffff;
-  --color-light-1: #e8e8e8;
   --color-bg: #f8f7f0;
 }
 * {
@@ -31,4 +30,443 @@ a {
   max-width: 104rem;
   padding: 0rem 2rem;
   margin: 0 auto;
+}
+.section {
+  margin-top: 10rem;
+}
+
+/* top nav */
+.top_nav {
+  width: 100%;
+  height: 10rem;
+}
+.top_nav_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top_nav_details {
+  display: flex;
+  align-items: center;
+}
+.top_nav_detail {
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+}
+.top_nav_detail_content {
+  margin-left: 1rem;
+}
+.top_nav_detail_p {
+  font-size: 1.2rem;
+}
+.top_nav_detail_data {
+  font-size: 1.3rem;
+}
+
+/* nav */
+.nav {
+  width: 100%;
+  height: 5rem;
+  background-image: url(../images/nav-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+}
+.nav_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -0.4rem;
+}
+.nav_icon {
+  max-width: 1.7rem;
+  margin-left: 1.2rem;
+  cursor: pointer;
+}
+.nav_list {
+  display: flex;
+  align-items: center;
+}
+.nav_item {
+  margin: 0rem 1rem;
+}
+.nav_link {
+  padding: 0.5rem;
+  color: var(--color-dark-2);
+  font-size: 1.2rem;
+}
+/* header */
+.header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/header.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.header_container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.header_title_2 {
+  text-transform: uppercase;
+  color: var(--color-light-1);
+  font-size: 1.4rem;
+}
+.header_title_main {
+  font-family: "Covered By Your Grace", serif;
+  font-size: 8.5rem;
+  color: var(--color-light-1);
+  line-height: 8rem;
+  margin: 1.5rem 0rem;
+}
+.header_wrapper {
+  width: 45%;
+  margin-top: 3rem;
+}
+.header_p {
+  color: var(--color-light-1);
+  margin-bottom: 4rem;
+}
+.header_btn {
+  background-color: var(--color-primary);
+  padding: 1rem 2.5rem;
+  color: var(--color-light-1);
+  border-radius: 0.3rem;
+}
+
+/* features */
+.features {
+  margin-top: -3rem;
+}
+.features_container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+  grid-gap: 2.5rem;
+}
+.feature {
+  background-color: var(--color-light-1);
+  padding: 3rem;
+  text-align: center;
+  border-radius: 1rem;
+  box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.2);
+}
+.feature_title {
+  margin: 1.5rem 0rem;
+}
+.feature_number {
+  color: var(--color-secondary);
+  font-family: "Covered By Your Grace", serif;
+}
+/* intro */
+.intro {
+  width: 100%;
+}
+.intro_container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(42rem, 1fr));
+  grid-gap: 2.5rem;
+}
+.intro_img {
+  width: 100%;
+}
+.intro_title_1 {
+  font-size: 1.3rem;
+  color: var(--color-secondary);
+  font-family: "Covered By Your Grace", serif;
+}
+.intro_content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.intro_title {
+  margin: 1.2rem 0rem;
+  font-size: 3.6rem;
+}
+.intro_title_3 {
+  margin-bottom: 1.2rem;
+  color: var(--color-primary);
+  font-weight: bold;
+}
+.intro_p {
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}
+.intro_tips {
+  display: flex;
+  margin-bottom: 2rem;
+}
+.intro_tip {
+  display: flex;
+  align-items: center;
+}
+.intro_tip:not(:first-child) {
+  margin-left: 2rem;
+}
+.intro_tip_icon {
+  max-width: 5rem;
+  margin-right: 1.2rem;
+}
+.intro_tip_p {
+  font-weight: bold;
+}
+.intro_list_item {
+  display: flex;
+  align-items: center;
+}
+.intro_list_icon {
+  margin-right: 1rem;
+  max-width: 1.5rem;
+}
+.intro_list {
+  margin-bottom: 4rem;
+}
+.intro_btn {
+  background-color: var(--color-primary);
+  padding: 1rem 2.5rem;
+  color: var(--color-light-1);
+  border-radius: 0.3rem;
+}
+/* services */
+.services {
+  background-color: var(--color-bg);
+}
+.section_header {
+  width: 100%;
+  text-align: center;
+}
+.services_container {
+  padding: 6rem 0rem;
+}
+.section_header_title_2 {
+  color: var(--color-secondary);
+  font-family: "Covered By Your Grace", serif;
+}
+.services_row {
+  margin-top: 6rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-gap: 2.5rem;
+}
+.service {
+  width: 100%;
+  height: 40rem;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  border-radius: 1rem;
+}
+.service_1 {
+  background-image: url(../images/fruits.jpg);
+  object-fit: contain;
+  width: 100%;
+}
+.service_2 {
+  background-image: url(../images/fruits.jpg);
+  object-fit: contain;
+  width: 100%;
+}
+.service_3 {
+  background-image: url(../images/fruits.jpg);
+  object-fit: contain;
+  width: 100%;
+}
+.service_4 {
+  background-image: url(../images/fruits.jpg);
+  object-fit: contain;
+  width: 100%;
+}
+.services_content {
+  width: 75%;
+  background-color: var(--color-light-1);
+  text-align: center;
+  padding: 0rem 1rem 1.2rem 1rem;
+  margin-bottom: 2rem;
+}
+.service_icon {
+  max-width: 5rem;
+  margin-top: -2rem;
+}
+.service_title {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+/* ad */
+.ad {
+  width: 100%;
+  height: 80vh;
+  background-image: url(../images/agriculture-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: -3rem;
+  position: absolute;
+  z-index: -99;
+  display: flex;
+  align-items: center;
+}
+.ad_tabs {
+  margin-top: -3rem;
+  width: 100%;
+  padding: 5rem 3rem;
+  background-color: var(--color-primary);
+  color: var(--color-light-1);
+  border-radius: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ad_title {
+  font-size: 5.2rem;
+}
+.projects_section {
+  margin-top: 57rem;
+}
+.projects {
+  margin-top: 6rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-gap: 1.5rem;
+}
+
+.project_img {
+  width: 100%;
+  height: 35rem;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+.project_title {
+  margin-top: -5rem;
+  margin-left: 1.4rem;
+  color: var(--color-light-1);
+}
+/* testimonials */
+.testimonials {
+  width: 100%;
+  background-color: var(--color-bg);
+  padding: 6rem 0rem;
+}
+.reviews {
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+  padding: 0rem 3rem;
+}
+.review {
+  background-color: var(--color-light-1);
+  border-radius: 1rem;
+  padding: 4rem 7rem;
+}
+.review_footer {
+  display: flex;
+  align-items: center;
+}
+.review_user {
+  display: flex;
+  align-items: center;
+}
+.review_user_img {
+  width: 3rem;
+}
+.review_user_name {
+  font-size: 1.5rem;
+  margin-left: 1.5rem;
+}
+.review_ratings {
+  margin-left: 4rem;
+}
+
+.review_btn {
+  background-color: var(--color-primary);
+  padding: 1rem 2.5rem;
+  color: var(--color-light-1);
+  border-radius: 0.3rem;
+}
+.reviews_title {
+  font-size: 3.2rem;
+}
+
+/* swiper js */
+.swiper {
+  width: 100%;
+  height: 100%;
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+}
+
+/* blogs */
+.blogs {
+  margin-top: 6rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-gap: 1.5rem;
+}
+.blog {
+  border: 1px solid var(--color-bg);
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.blog_img {
+  width: 100%;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.blog_body {
+  padding: 0rem 1.3rem 1.3rem 1.3rem;
+  text-align: center;
+}
+.blog_date {
+  padding: 1rem 1.6rem;
+  background-color: var(--color-primary);
+  color: var(--color-light-1);
+  font-size: 1.3rem;
+  width: 11rem;
+  text-align: center;
+  border-radius: 1rem;
+  margin: 0 auto;
+}
+.blog_details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.5rem 0rem;
+}
+.blog_user {
+  display: flex;
+  align-items: center;
+}
+.blog_user_name {
+  font-size: 1.2rem;
+}
+.blog_comment_count {
+  font-size: 1.2rem;
+}
+.blog_comments {
+  display: flex;
+  align-items: center;
+}
+.blog_title {
+  font-size: 1.7rem;
+}
+
+.footer {
+  margin-top: 14rem;
+  width: 100%;
+  background-color: var(--color-dark-1);
+  color: var(--color-light-1);
+}
+.footer_p {
+  padding: 1.4rem 0rem;
 }
